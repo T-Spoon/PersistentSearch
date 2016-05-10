@@ -8,7 +8,7 @@ import android.view.animation.Interpolator;
 import java.lang.ref.WeakReference;
 
 @TargetApi(Build.VERSION_CODES.HONEYCOMB)
-final class SupportAnimatorLollipop extends SupportAnimator{
+final class SupportAnimatorLollipop extends SupportAnimator {
 
     WeakReference<Animator> mNativeAnimator;
 

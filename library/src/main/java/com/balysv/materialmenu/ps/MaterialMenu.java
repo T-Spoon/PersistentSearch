@@ -31,7 +31,7 @@ public interface MaterialMenu {
      *
      * @param state new icon state
      */
-    public void setState(IconState state);
+    void setState(IconState state);
 
     /**
      * Return current icon state

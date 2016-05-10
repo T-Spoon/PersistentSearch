@@ -3,7 +3,7 @@ package io.codetailps.animation;
 import android.view.animation.Interpolator;
 
 public class ReverseInterpolator implements Interpolator {
-	
+    
     public float getInterpolation(float t) {
     	t = Math.abs(t -1f);
         float x = t*2.0f;

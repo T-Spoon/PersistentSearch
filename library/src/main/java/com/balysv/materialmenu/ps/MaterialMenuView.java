@@ -236,7 +236,7 @@ public class MaterialMenuView extends View implements MaterialMenu {
             out.writeString(state.name());
         }
 
-        public static final Creator<SavedState> CREATOR = new Creator<SavedState>() {
+        public static final Creator<MaterialMenuView.SavedState> CREATOR = new Creator<MaterialMenuView.SavedState>() {
             @Override
             public SavedState createFromParcel(Parcel in) {
                 return new SavedState(in);

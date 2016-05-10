@@ -3,6 +3,7 @@ package com.quinny898.library.persistentsearch;
 import android.graphics.drawable.Drawable;
 
 public class SearchResult {
+
     public String title;
     public Drawable icon;
 
